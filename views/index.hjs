@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<link rel='stylesheet' href='/stylesheets/bootstrap.min.css'/>
+	<link rel='stylesheet' href='/stylesheets/jasny-bootstrap.min.css'/>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <script src='/javascripts/jquery-2.1.3.min.js'></script>
+    <script src='/javascripts/bootstrap.min.js'></script>
+    <script src='/javascripts/jasny-bootstrap.min.js'></script>
+    
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <p>Welcome to {{ title }}</p>
+    <div class="fileinput fileinput-new" data-provides="fileinput">
+  <span class="btn btn-default btn-file"><span class="fileinput-new">Select file</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+  <span class="fileinput-filename"></span>
+  <a href="#" class="close fileinput-exists" data-dismiss="fileinput" style="float: none">&times;</a>
+</div>
+  </body>
+</html>
